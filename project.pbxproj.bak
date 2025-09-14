@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25E3C9862E760A75005135C1 /* InsomniaCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9852E760A75005135C1 /* InsomniaCoachApp.swift */; };
+		25E3C9882E760A75005135C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9872E760A75005135C1 /* ContentView.swift */; };
+		25E3C9B52E760FE6005135C1 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9B42E760FE6005135C1 /* AppEnvironment.swift */; };
+		25E3C9B72E761029005135C1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9B62E761029005135C1 /* RootView.swift */; };
+		25E3C9B92E76110B005135C1 /* HealthKitServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9B82E76110B005135C1 /* HealthKitServicing.swift */; };
+		25E3C9D62E76282F005135C1 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9D52E76282F005135C1 /* DashboardView.swift */; };
+
+		25E3C9E62E7676FC005135C1 /* MockMusicProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9E52E7676FC005135C1 /* MockMusicProvider.swift */; };
+		25E3C9E82E7677B3005135C1 /* AudioConcatenator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9E72E7677B3005135C1 /* AudioConcatenator.swift */; };
+		25E3C9EA2E767CA2005135C1 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9E92E767CA2005135C1 /* MusicPlayer.swift */; };
+		25E3C9EC2E767D07005135C1 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9EB2E767D07005135C1 /* MusicLibrary.swift */; };
+		25E3C9EE2E7681A7005135C1 /* AudioStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9ED2E7681A7005135C1 /* AudioStudioView.swift */; };
+		25E3C9F02E7681B7005135C1 /* TrackStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9EF2E7681B7005135C1 /* TrackStore.swift */; };
+		25E3C9FD2E769BBE005135C1 /* AudioCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3C9FC2E769BBE005135C1 /* AudioCache.swift */; };
+		514721C5EF25422390D0AE52 /* SunoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32276CE2E312404D969D6491 /* SunoProvider.swift */; };
+		4679FAC921E14BEBA8EFFB47 /* PlaylistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716F3531ACA54FD7859F8063 /* PlaylistManager.swift */; };
+		5BEDB9D43393413CA3198EFF /* MusicModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D411E41EC0D454B94418E27 /* MusicModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25E3C9902E760A77005135C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E3C97A2E760A75005135C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25E3C9812E760A75005135C1;
+			remoteInfo = InsomniaCoach;
+		};
+		25E3C99A2E760A77005135C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E3C97A2E760A75005135C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25E3C9812E760A75005135C1;
+			remoteInfo = InsomniaCoach;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25E3C9822E760A75005135C1 /* InsomniaCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsomniaCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E3C9852E760A75005135C1 /* InsomniaCoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsomniaCoachApp.swift; sourceTree = "<group>"; };
+		25E3C9872E760A75005135C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25E3C98F2E760A77005135C1 /* InsomniaCoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsomniaCoachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E3C9992E760A77005135C1 /* InsomniaCoachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsomniaCoachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E3C9B42E760FE6005135C1 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		25E3C9B62E761029005135C1 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		25E3C9B82E76110B005135C1 /* HealthKitServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitServicing.swift; sourceTree = "<group>"; };
+		25E3C9D52E76282F005135C1 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+
+		25E3C9E52E7676FC005135C1 /* MockMusicProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMusicProvider.swift; sourceTree = "<group>"; };
+		25E3C9E72E7677B3005135C1 /* AudioConcatenator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioConcatenator.swift; sourceTree = "<group>"; };
+		25E3C9E92E767CA2005135C1 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		25E3C9EB2E767D07005135C1 /* MusicLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		25E3C9ED2E7681A7005135C1 /* AudioStudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStudioView.swift; sourceTree = "<group>"; };
+		25E3C9EF2E7681B7005135C1 /* TrackStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackStore.swift; sourceTree = "<group>"; };
+		25E3C9FC2E769BBE005135C1 /* AudioCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCache.swift; sourceTree = "<group>"; };
+		32276CE2E312404D969D6491 /* SunoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SunoProvider.swift"; sourceTree = "<group>"; };
+		716F3531ACA54FD7859F8063 /* PlaylistManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaylistManager.swift"; sourceTree = "<group>"; };
+		5D411E41EC0D454B94418E27 /* MusicModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MusicModels.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		25E3C9E22E767391005135C1 /* Exceptions for "InsomniaCoach" folder in "InsomniaCoach" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 25E3C9812E760A75005135C1 /* InsomniaCoach */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		25E3C9842E760A75005135C1 /* InsomniaCoach */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				25E3C9E22E767391005135C1 /* Exceptions for "InsomniaCoach" folder in "InsomniaCoach" target */,
+			);
+			path = InsomniaCoach;
+			sourceTree = "<group>";
+		};
+		25E3C9922E760A77005135C1 /* InsomniaCoachTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InsomniaCoachTests;
+			sourceTree = "<group>";
+		};
+		25E3C99C2E760A77005135C1 /* InsomniaCoachUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InsomniaCoachUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25E3C97F2E760A75005135C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E3C98C2E760A77005135C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E3C9962E760A77005135C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25E3C9792E760A75005135C1 = {
+			isa = PBXGroup;
+			children = (
+				25E3C9B32E760E3E005135C1 /* Features */,
+				25E3C9B22E760D1F005135C1 /* Resources */,
+				25E3C9B02E760D02005135C1 /* Services */,
+				25E3C9AF2E760CF2005135C1 /* DataModel */,
+				25E3C9AE2E760CDD005135C1 /* App */,
+				25E3C9842E760A75005135C1 /* InsomniaCoach */,
+				25E3C9922E760A77005135C1 /* InsomniaCoachTests */,
+				25E3C99C2E760A77005135C1 /* InsomniaCoachUITests */,
+				25E3C9832E760A75005135C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25E3C9832E760A75005135C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25E3C9822E760A75005135C1 /* InsomniaCoach.app */,
+				25E3C98F2E760A77005135C1 /* InsomniaCoachTests.xctest */,
+				25E3C9992E760A77005135C1 /* InsomniaCoachUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25E3C9AE2E760CDD005135C1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				25E3C9852E760A75005135C1 /* InsomniaCoachApp.swift */,
+				25E3C9B42E760FE6005135C1 /* AppEnvironment.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		25E3C9AF2E760CF2005135C1 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		25E3C9B02E760D02005135C1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				25E3C9B82E76110B005135C1 /* HealthKitServicing.swift */,
+				25E3C9E52E7676FC005135C1 /* MockMusicProvider.swift */,
+				25E3C9E72E7677B3005135C1 /* AudioConcatenator.swift */,
+				25E3C9E92E767CA2005135C1 /* MusicPlayer.swift */,
+				25E3C9EB2E767D07005135C1 /* MusicLibrary.swift */,
+				25E3C9EF2E7681B7005135C1 /* TrackStore.swift */,
+				25E3C9FC2E769BBE005135C1 /* AudioCache.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		25E3C9B22E760D1F005135C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		25E3C9B32E760E3E005135C1 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				25E3C9D52E76282F005135C1 /* DashboardView.swift */,
+				25E3C9872E760A75005135C1 /* ContentView.swift */,
+				25E3C9B62E761029005135C1 /* RootView.swift */,
+				25E3C9ED2E7681A7005135C1 /* AudioStudioView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2FA04C547DE846AB8A453CB3 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D411E41EC0D454B94418E27 /* MusicModels.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25E3C9812E760A75005135C1 /* InsomniaCoach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E3C9A32E760A77005135C1 /* Build configuration list for PBXNativeTarget "InsomniaCoach" */;
+			buildPhases = (
+				25E3C97E2E760A75005135C1 /* Sources */,
+				25E3C97F2E760A75005135C1 /* Frameworks */,
+				25E3C9802E760A75005135C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				25E3C9842E760A75005135C1 /* InsomniaCoach */,
+			);
+			name = InsomniaCoach;
+			packageProductDependencies = (
+			);
+			productName = InsomniaCoach;
+			productReference = 25E3C9822E760A75005135C1 /* InsomniaCoach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25E3C98E2E760A77005135C1 /* InsomniaCoachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E3C9A62E760A77005135C1 /* Build configuration list for PBXNativeTarget "InsomniaCoachTests" */;
+			buildPhases = (
+				25E3C98B2E760A77005135C1 /* Sources */,
+				25E3C98C2E760A77005135C1 /* Frameworks */,
+				25E3C98D2E760A77005135C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E3C9912E760A77005135C1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				25E3C9922E760A77005135C1 /* InsomniaCoachTests */,
+			);
+			name = InsomniaCoachTests;
+			packageProductDependencies = (
+			);
+			productName = InsomniaCoachTests;
+			productReference = 25E3C98F2E760A77005135C1 /* InsomniaCoachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25E3C9982E760A77005135C1 /* InsomniaCoachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E3C9A92E760A77005135C1 /* Build configuration list for PBXNativeTarget "InsomniaCoachUITests" */;
+			buildPhases = (
+				25E3C9952E760A77005135C1 /* Sources */,
+				25E3C9962E760A77005135C1 /* Frameworks */,
+				25E3C9972E760A77005135C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E3C99B2E760A77005135C1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				25E3C99C2E760A77005135C1 /* InsomniaCoachUITests */,
+			);
+			name = InsomniaCoachUITests;
+			packageProductDependencies = (
+			);
+			productName = InsomniaCoachUITests;
+			productReference = 25E3C9992E760A77005135C1 /* InsomniaCoachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25E3C97A2E760A75005135C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					25E3C9812E760A75005135C1 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					25E3C98E2E760A77005135C1 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 25E3C9812E760A75005135C1;
+					};
+					25E3C9982E760A77005135C1 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 25E3C9812E760A75005135C1;
+					};
+				};
+			};
+			buildConfigurationList = 25E3C97D2E760A75005135C1 /* Build configuration list for PBXProject "InsomniaCoach" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25E3C9792E760A75005135C1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 25E3C9832E760A75005135C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E3C9812E760A75005135C1 /* InsomniaCoach */,
+				25E3C98E2E760A77005135C1 /* InsomniaCoachTests */,
+				25E3C9982E760A77005135C1 /* InsomniaCoachUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E3C9802E760A75005135C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E3C98D2E760A77005135C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E3C9972E760A77005135C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+				files = (
+				25E3C9B72E761029005135C1 /* RootView.swift in Sources */,
+				25E3C9EC2E767D07005135C1 /* MusicLibrary.swift in Sources */,
+				25E3C9D62E76282F005135C1 /* DashboardView.swift in Sources */,
+				25E3C9F02E7681B7005135C1 /* TrackStore.swift in Sources */,
+				25E3C9882E760A75005135C1 /* ContentView.swift in Sources */,
+				25E3C9862E760A75005135C1 /* InsomniaCoachApp.swift in Sources */,
+				25E3C9FD2E769BBE005135C1 /* AudioCache.swift in Sources */,
+				25E3C9B92E76110B005135C1 /* HealthKitServicing.swift in Sources */,
+				25E3C9EA2E767CA2005135C1 /* MusicPlayer.swift in Sources */,
+				25E3C9E62E7676FC005135C1 /* MockMusicProvider.swift in Sources */,
+				25E3C9B52E760FE6005135C1 /* AppEnvironment.swift in Sources */,
+				25E3C9EE2E7681A7005135C1 /* AudioStudioView.swift in Sources */,
+				25E3C9E82E7677B3005135C1 /* AudioConcatenator.swift in Sources */,
+			)
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E3C98B2E760A77005135C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E3C9952E760A77005135C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25E3C9912E760A77005135C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25E3C9812E760A75005135C1 /* InsomniaCoach */;
+			targetProxy = 25E3C9902E760A77005135C1 /* PBXContainerItemProxy */;
+		};
+		25E3C99B2E760A77005135C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25E3C9812E760A75005135C1 /* InsomniaCoach */;
+			targetProxy = 25E3C99A2E760A77005135C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25E3C9A12E760A77005135C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25E3C9A22E760A77005135C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25E3C9A42E760A77005135C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InsomniaCoach/InsomniaCoach.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QHX4DQ2S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InsomniaCoach/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app reads your sleep data to generate personalized audio plans.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youxi.insomniacoach.dev1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25E3C9A52E760A77005135C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InsomniaCoach/InsomniaCoach.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QHX4DQ2S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InsomniaCoach/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app reads your sleep data to generate personalized audio plans.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youxi.insomniacoach.dev1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25E3C9A72E760A77005135C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QHX4DQ2S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yongyanwang.InsomniaCoachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsomniaCoach.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InsomniaCoach";
+			};
+			name = Debug;
+		};
+		25E3C9A82E760A77005135C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QHX4DQ2S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yongyanwang.InsomniaCoachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsomniaCoach.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InsomniaCoach";
+			};
+			name = Release;
+		};
+		25E3C9AA2E760A77005135C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QHX4DQ2S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yongyanwang.InsomniaCoachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsomniaCoach;
+			};
+			name = Debug;
+		};
+		25E3C9AB2E760A77005135C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QHX4DQ2S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yongyanwang.InsomniaCoachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsomniaCoach;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E3C97D2E760A75005135C1 /* Build configuration list for PBXProject "InsomniaCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E3C9A12E760A77005135C1 /* Debug */,
+				25E3C9A22E760A77005135C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E3C9A32E760A77005135C1 /* Build configuration list for PBXNativeTarget "InsomniaCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E3C9A42E760A77005135C1 /* Debug */,
+				25E3C9A52E760A77005135C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E3C9A62E760A77005135C1 /* Build configuration list for PBXNativeTarget "InsomniaCoachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E3C9A72E760A77005135C1 /* Debug */,
+				25E3C9A82E760A77005135C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E3C9A92E760A77005135C1 /* Build configuration list for PBXNativeTarget "InsomniaCoachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E3C9AA2E760A77005135C1 /* Debug */,
+				25E3C9AB2E760A77005135C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25E3C97A2E760A75005135C1 /* Project object */;
+}
